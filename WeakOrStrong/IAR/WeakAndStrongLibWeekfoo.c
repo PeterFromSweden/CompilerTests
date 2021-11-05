@@ -1,4 +1,10 @@
-__weak char* foo(void)
+void foo(void);
+
+void foocaller(void)
 {
-  return "WeakAndStrongLib:weak";
+  foo();
+}
+
+__weak void foo(void)
+{
 }

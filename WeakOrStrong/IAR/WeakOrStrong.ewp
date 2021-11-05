@@ -2096,27 +2096,9 @@
         </settings>
     </configuration>
     <file>
-        <name>$PROJ_DIR$\foo.c</name>
-        <excluded>
-            <configuration>Debug</configuration>
-        </excluded>
-    </file>
-    <file>
         <name>$PROJ_DIR$\main.c</name>
     </file>
     <file>
-        <name>$PROJ_DIR$\Debug\Exe\StrongLib.a</name>
-        <excluded>
-            <configuration>Debug</configuration>
-        </excluded>
-    </file>
-    <file>
         <name>$PROJ_DIR$\Debug\Exe\WeakAndStrongLib.a</name>
-    </file>
-    <file>
-        <name>$PROJ_DIR$\Debug\Exe\WeakLib.a</name>
-        <excluded>
-            <configuration>Debug</configuration>
-        </excluded>
     </file>
 </project>

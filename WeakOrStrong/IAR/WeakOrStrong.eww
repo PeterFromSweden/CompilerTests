@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workspace>
     <project>
-        <path>$WS_DIR$\StrongLib.ewp</path>
-    </project>
-    <project>
         <path>$WS_DIR$\WeakAndStrongLib.ewp</path>
-    </project>
-    <project>
-        <path>$WS_DIR$\WeakLib.ewp</path>
     </project>
     <project>
         <path>$WS_DIR$\WeakOrStrong.ewp</path>
