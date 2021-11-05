@@ -13,6 +13,8 @@ extern char* foo(void);
 // -      weak            strong OK, strong
 // strong weak            strong OK?, strong (main)
 
+// Do a project | batch build (F8) and Download and debug (Ctrl-D)
+// Observe output in Terminal I/O
 int main()
 {
   puts(foo());
