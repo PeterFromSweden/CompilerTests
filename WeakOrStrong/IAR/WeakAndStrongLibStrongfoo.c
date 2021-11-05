@@ -1,6 +1,6 @@
 extern char* foodata;
 
-char* foo(void)
+void foo(void)
 {
   foodata = "WeakAndStrongLib:strong";
 }
